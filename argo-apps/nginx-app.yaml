@@ -9,8 +9,8 @@ spec:
     repoURL: https://github.com/waf6/argocd-minikube.git
     targetRevision: HEAD
     path: apps/nginx
-    kustomize:
-      version: v4.5.7
+#    kustomize:
+#      version: v4.5.7
   destination:
     server: https://kubernetes.default.svc
     namespace: default
