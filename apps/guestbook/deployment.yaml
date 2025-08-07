@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: phico/guestbook:1.0
+#        image: phico/guestbook:1.0
+        image: gcr.io/heptio-images/ks-guestbook-demo:0.2  # Image publik
         ports:
         - containerPort: 3000
